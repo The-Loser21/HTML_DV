@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #00b1f7;
+}
+
+.header_container {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Thanh tìm kiếm */
+.search-bar {
+    flex: 1;
+    width: 300px;
+    margin: 0 20px;
+    position: relative;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+*/ .header_menunu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-item-text {
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+}
+
+.menu-item-text:hover {
+    background-color: aquamarine;
+}
+
+
+/* Container */
+.container {
+    margin: 30px 300px;
+}
+
+.container_box {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 77px;
+    row-gap: 30px;
+}
+
+.container_content {
+    width: 255px;
+    height: 355px;
+}
+
+.content-img {
+    width: 100%;
+    height: 255px;
+}
+
+.content-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.content-text {
+    padding-top: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.content-text-1 {}
+
+.content-text-2 {}
